@@ -1,0 +1,801 @@
+order_id,order_date,customer_id,region,sales_channel,product_category,product_name,units_sold,unit_price,revenue,cost,profit
+1,2023-04-13,1758,North,Online,Electronics,Laptop,1,702.12,702.12,434.59,267.53
+2,2023-12-15,1899,East,Partner,Furniture,Desk,10,304.35,3043.5,2388.71,654.79
+3,2023-09-28,1507,South,Online,Clothing,T-Shirt,10,75.36,753.6,488.06,265.54
+4,2023-04-17,1204,West,Online,Electronics,Laptop,5,772.81,3864.05,2503.08,1360.97
+5,2023-03-13,1110,West,Partner,Clothing,T-Shirt,11,62.87,691.57,416.65,274.92
+6,2023-07-08,1519,West,Retail,Clothing,Sneakers,16,47.47,759.52,411.39,348.13
+7,2023-01-21,1194,East,Online,Clothing,Jacket,4,48.55,194.2,117.24,76.96
+8,2023-04-13,1060,North,Online,Home,Curtains,3,80.73,242.19,191.8,50.39
+9,2023-05-02,1603,East,Online,Furniture,Bookshelf,19,181.13,3441.47,1895.15,1546.32
+10,2023-08-03,1512,North,Retail,Home,Lamp,10,64.5,645.0,339.66,305.34
+11,2023-11-27,1545,East,Partner,Clothing,Jacket,5,58.59,292.95,164.61,128.34
+12,2023-03-29,1072,South,Online,Home,Lamp,17,80.16,1362.72,963.6,399.12
+13,2023-04-10,1349,North,Partner,Clothing,Jacket,15,64.6,969.0,508.27,460.73
+14,2023-12-26,1025,East,Partner,Furniture,Office Chair,11,313.13,3444.43,1785.33,1659.1
+15,2023-06-01,1252,East,Online,Furniture,Bookshelf,4,295.93,1183.72,857.58,326.14
+16,2023-05-11,1525,North,Retail,Electronics,Headphones,15,613.17,9197.55,7148.45,2049.1
+17,2023-05-30,1525,North,Retail,Office Supplies,Pens,14,24.44,342.16,247.81,94.35
+18,2023-11-05,1749,East,Partner,Furniture,Bookshelf,19,282.0,5358.0,4117.96,1240.04
+19,2023-09-15,1505,West,Retail,Furniture,Desk,11,254.82,2803.02,1491.63,1311.39
+20,2023-12-10,1984,West,Partner,Home,Curtains,6,81.57,489.42,280.31,209.11
+21,2023-10-21,1272,West,Online,Office Supplies,Printer Paper,5,20.23,101.15,67.69,33.46
+22,2023-07-11,1536,North,Online,Office Supplies,Notepad,7,18.84,131.88,87.12,44.76
+23,2023-10-04,1393,West,Partner,Furniture,Bookshelf,17,226.44,3849.48,2472.1,1377.38
+24,2023-06-10,1227,South,Online,Home,Coffee Table,3,87.14,261.42,168.32,93.1
+25,2023-11-10,1935,West,Partner,Office Supplies,Pens,15,28.55,428.25,285.78,142.47
+26,2023-01-22,1612,South,Partner,Clothing,Jacket,17,62.32,1059.44,650.11,409.33
+27,2023-09-10,1442,West,Online,Home,Curtains,6,99.18,595.08,406.0,189.08
+28,2023-08-24,1436,East,Online,Clothing,Sneakers,13,53.89,700.57,546.52,154.05
+29,2023-12-11,1349,West,Partner,Electronics,Tablet,6,551.53,3309.18,2138.87,1170.31
+30,2023-02-18,1663,South,Retail,Home,Lamp,11,60.22,662.42,491.36,171.06
+31,2023-02-28,1039,North,Partner,Clothing,Sneakers,9,44.89,404.01,265.58,138.43
+32,2023-06-19,1321,North,Partner,Electronics,Laptop,5,773.66,3868.3,2064.17,1804.13
+33,2023-07-07,1880,North,Retail,Office Supplies,Printer Paper,11,30.48,335.28,249.82,85.46
+34,2023-09-28,1846,East,Partner,Furniture,Sofa,6,275.3,1651.8,1286.44,365.36
+35,2023-07-09,1299,East,Partner,Office Supplies,Pens,11,26.07,286.77,167.47,119.3
+36,2023-06-24,1786,West,Retail,Office Supplies,Pens,5,20.31,101.55,60.64,40.91
+37,2023-02-20,1000,North,Retail,Furniture,Office Chair,1,285.44,285.44,188.09,97.35
+38,2023-12-30,1138,North,Retail,Electronics,Laptop,14,523.91,7334.74,4946.34,2388.4
+39,2023-02-24,1901,West,Partner,Furniture,Office Chair,4,223.1,892.4,605.19,287.21
+40,2023-09-01,1649,South,Online,Electronics,Laptop,18,583.54,10503.72,6980.57,3523.15
+41,2023-11-16,1595,West,Partner,Clothing,Jeans,12,49.26,591.12,416.96,174.16
+42,2023-05-11,1776,North,Partner,Home,Rug,1,62.66,62.66,31.38,31.28
+43,2023-11-03,1418,West,Partner,Clothing,Sneakers,11,59.03,649.33,442.73,206.6
+44,2023-05-15,1945,South,Partner,Furniture,Bookshelf,17,302.61,5144.37,3723.46,1420.91
+45,2023-01-21,1929,South,Online,Office Supplies,Notepad,14,31.49,440.86,351.49,89.37
+46,2023-11-25,1319,East,Retail,Furniture,Desk,12,231.88,2782.56,2164.65,617.91
+47,2023-06-16,1827,West,Online,Electronics,Tablet,8,718.06,5744.48,4165.61,1578.87
+48,2023-10-01,1378,West,Online,Electronics,Laptop,3,479.14,1437.42,1069.98,367.44
+49,2023-03-30,1748,East,Partner,Electronics,Smartphone,14,608.3,8516.2,5174.86,3341.34
+50,2023-11-12,1294,South,Online,Furniture,Bookshelf,10,233.87,2338.7,1742.28,596.42
+51,2023-01-14,1421,South,Online,Clothing,Jeans,8,55.57,444.56,283.99,160.57
+52,2023-08-30,1664,West,Online,Home,Coffee Table,1,91.89,91.89,59.8,32.09
+53,2023-09-22,1973,North,Retail,Electronics,Headphones,17,743.85,12645.45,7779.07,4866.38
+54,2023-12-12,1197,East,Partner,Home,Coffee Table,8,66.99,535.92,355.24,180.68
+55,2023-02-22,1553,South,Partner,Electronics,Laptop,6,539.81,3238.86,2329.27,909.59
+56,2023-12-06,1477,West,Online,Office Supplies,Printer Paper,15,30.68,460.2,298.5,161.7
+57,2023-04-02,1440,West,Retail,Furniture,Sofa,7,260.97,1826.79,1460.17,366.62
+58,2023-09-21,1288,South,Online,Furniture,Bookshelf,1,281.05,281.05,206.17,74.88
+59,2023-02-04,1634,East,Online,Electronics,Headphones,4,625.16,2500.64,1822.31,678.33
+60,2023-07-25,1158,East,Online,Clothing,T-Shirt,10,54.31,543.1,405.36,137.74
+61,2023-03-22,1695,South,Retail,Furniture,Sofa,15,301.97,4529.55,2438.01,2091.54
+62,2023-02-19,1046,East,Online,Furniture,Sofa,15,294.59,4418.85,2408.16,2010.69
+63,2023-12-26,1094,South,Retail,Home,Lamp,4,90.67,362.68,259.68,103.0
+64,2023-01-02,1810,South,Partner,Home,Curtains,19,89.31,1696.89,1124.73,572.16
+65,2023-02-23,1871,West,Online,Clothing,Sneakers,5,71.76,358.8,282.63,76.17
+66,2023-04-16,1345,East,Partner,Office Supplies,Pens,6,20.91,125.46,78.67,46.79
+67,2023-09-17,1615,North,Online,Clothing,T-Shirt,14,64.14,897.96,694.62,203.34
+68,2023-11-06,1827,West,Online,Electronics,Headphones,18,640.12,11522.16,5823.68,5698.48
+69,2023-07-10,1323,West,Online,Clothing,T-Shirt,11,75.56,831.16,556.49,274.67
+70,2023-08-06,1105,West,Retail,Clothing,T-Shirt,5,75.21,376.05,267.81,108.24
+71,2023-02-13,1050,East,Partner,Electronics,Tablet,17,627.46,10666.82,7274.93,3391.89
+72,2023-06-11,1406,North,Retail,Electronics,Headphones,14,756.37,10589.18,8234.89,2354.29
+73,2023-07-21,1621,West,Retail,Furniture,Bookshelf,1,191.99,191.99,152.72,39.27
+74,2023-09-27,1830,North,Retail,Home,Rug,4,61.98,247.92,192.45,55.47
+75,2023-12-17,1968,East,Retail,Office Supplies,Printer Paper,19,26.37,501.03,310.49,190.54
+76,2023-10-31,1665,East,Partner,Clothing,T-Shirt,9,49.4,444.6,327.38,117.22
+77,2023-09-28,1601,West,Retail,Furniture,Bookshelf,9,192.14,1729.26,1079.67,649.59
+78,2023-08-03,1474,North,Retail,Electronics,Tablet,11,752.27,8274.97,5293.58,2981.39
+79,2023-09-09,1954,North,Partner,Furniture,Sofa,2,312.77,625.54,422.94,202.6
+80,2023-07-09,1024,North,Partner,Clothing,T-Shirt,12,74.86,898.32,516.06,382.26
+81,2023-10-23,1160,North,Online,Electronics,Tablet,7,479.58,3357.06,1712.65,1644.41
+82,2023-08-01,1665,North,Retail,Electronics,Tablet,17,700.98,11916.66,6950.7,4965.96
+83,2023-07-27,1083,North,Online,Clothing,Jeans,18,65.89,1186.02,656.36,529.66
+84,2023-08-25,1475,North,Online,Office Supplies,Notepad,9,19.73,177.57,110.87,66.7
+85,2023-12-04,1140,North,Online,Electronics,Headphones,8,600.79,4806.32,3261.64,1544.68
+86,2023-02-22,1031,West,Partner,Electronics,Smartphone,19,495.57,9415.83,7244.69,2171.14
+87,2023-10-07,1423,South,Partner,Office Supplies,Pens,17,18.05,306.85,196.88,109.97
+88,2023-08-05,1174,East,Online,Home,Lamp,19,59.15,1123.85,823.4,300.45
+89,2023-09-09,1113,North,Partner,Furniture,Office Chair,18,253.66,4565.88,2886.68,1679.2
+90,2023-07-07,1263,South,Online,Clothing,Jeans,6,69.55,417.3,221.54,195.76
+91,2023-02-10,1978,North,Online,Electronics,Smartphone,7,691.17,4838.19,2814.33,2023.86
+92,2023-06-06,1054,West,Partner,Office Supplies,Pens,14,25.4,355.6,263.22,92.38
+93,2023-01-15,1312,South,Partner,Electronics,Smartphone,18,732.12,13178.16,8202.03,4976.13
+94,2023-10-28,1327,West,Online,Furniture,Desk,3,209.66,628.98,441.27,187.71
+95,2023-03-06,1603,West,Partner,Home,Lamp,15,83.33,1249.95,957.76,292.19
+96,2023-12-11,1087,West,Retail,Office Supplies,Notepad,15,28.31,424.65,314.92,109.73
+97,2023-11-23,1911,South,Online,Furniture,Office Chair,14,265.48,3716.72,2758.01,958.71
+98,2023-01-09,1909,West,Retail,Home,Rug,4,101.33,405.32,219.81,185.51
+99,2023-12-10,1672,West,Online,Office Supplies,Stapler,16,18.8,300.8,207.54,93.26
+100,2023-05-09,1284,South,Retail,Electronics,Tablet,19,464.2,8819.8,6728.92,2090.88
+101,2023-05-16,1915,North,Retail,Office Supplies,Printer Paper,18,30.89,556.02,414.36,141.66
+102,2023-03-04,1470,North,Online,Clothing,Sneakers,11,51.34,564.74,346.7,218.04
+103,2023-05-19,1255,West,Partner,Electronics,Smartphone,12,719.04,8628.48,5207.79,3420.69
+104,2023-03-22,1499,East,Partner,Office Supplies,Printer Paper,9,24.04,216.36,127.29,89.07
+105,2023-06-12,1631,North,Retail,Home,Curtains,12,62.73,752.76,572.5,180.26
+106,2023-10-16,1881,South,Partner,Clothing,T-Shirt,14,58.96,825.44,457.82,367.62
+107,2023-09-18,1961,East,Partner,Furniture,Bookshelf,19,251.87,4785.53,3457.57,1327.96
+108,2023-08-19,1277,West,Retail,Home,Lamp,13,75.32,979.16,553.62,425.54
+109,2023-02-10,1028,North,Partner,Home,Lamp,11,76.24,838.64,452.6,386.04
+110,2023-01-28,1837,North,Partner,Office Supplies,Printer Paper,13,27.87,362.31,255.41,106.9
+111,2023-05-15,1040,North,Retail,Office Supplies,Notepad,18,25.44,457.92,340.93,116.99
+112,2023-07-20,1997,West,Retail,Office Supplies,Pens,6,18.51,111.06,69.03,42.03
+113,2023-11-24,1980,North,Retail,Home,Rug,12,65.91,790.92,398.07,392.85
+114,2023-09-25,1748,North,Retail,Clothing,T-Shirt,6,68.36,410.16,235.93,174.23
+115,2023-02-02,1980,North,Retail,Furniture,Sofa,7,260.99,1826.93,1372.81,454.12
+116,2023-02-17,1362,West,Partner,Home,Coffee Table,14,58.25,815.5,448.43,367.07
+117,2023-03-03,1793,East,Retail,Home,Rug,1,59.97,59.97,40.84,19.13
+118,2023-08-04,1112,East,Online,Clothing,Jacket,11,52.39,576.29,349.64,226.65
+119,2023-10-20,1054,West,Online,Office Supplies,Pens,7,26.66,186.62,146.46,40.16
+120,2023-04-09,1311,West,Retail,Electronics,Laptop,15,763.47,11452.05,6189.84,5262.21
+121,2023-06-21,1466,South,Retail,Clothing,T-Shirt,1,51.72,51.72,34.24,17.48
+122,2023-12-26,1506,South,Retail,Clothing,Jeans,3,72.3,216.9,163.53,53.37
+123,2023-08-02,1449,West,Partner,Home,Rug,13,63.42,824.46,566.4,258.06
+124,2023-02-04,1216,South,Online,Electronics,Laptop,9,447.05,4023.45,2890.67,1132.78
+125,2023-08-15,1802,East,Partner,Furniture,Sofa,11,264.74,2912.14,1857.67,1054.47
+126,2023-04-11,1434,South,Online,Furniture,Office Chair,3,186.66,559.98,280.38,279.6
+127,2023-05-11,1043,South,Partner,Home,Curtains,6,84.33,505.98,307.78,198.2
+128,2023-09-14,1822,South,Online,Clothing,Sneakers,17,46.93,797.81,626.34,171.47
+129,2023-01-05,1215,North,Online,Home,Coffee Table,17,64.89,1103.13,730.9,372.23
+130,2023-08-06,1726,West,Retail,Office Supplies,Notepad,19,28.48,541.12,401.49,139.63
+131,2023-09-12,1536,North,Online,Home,Lamp,5,89.23,446.15,336.74,109.41
+132,2023-12-25,1921,North,Partner,Office Supplies,Stapler,18,24.84,447.12,253.23,193.89
+133,2023-10-10,1777,West,Online,Electronics,Tablet,9,759.86,6838.74,3500.26,3338.48
+134,2023-07-26,1980,West,Online,Home,Rug,16,100.41,1606.56,890.31,716.25
+135,2023-01-15,1136,North,Partner,Home,Coffee Table,7,57.63,403.41,286.11,117.3
+136,2023-12-12,1726,East,Online,Home,Coffee Table,19,100.37,1907.03,1509.07,397.96
+137,2023-02-11,1994,East,Partner,Home,Coffee Table,18,91.76,1651.68,853.03,798.65
+138,2023-06-28,1525,East,Retail,Home,Coffee Table,18,81.08,1459.44,1011.92,447.52
+139,2023-03-04,1130,South,Partner,Office Supplies,Notepad,3,25.91,77.73,50.08,27.65
+140,2023-12-18,1982,South,Online,Clothing,Jeans,5,61.09,305.45,193.14,112.31
+141,2023-08-19,1515,South,Online,Office Supplies,Notepad,12,26.09,313.08,232.05,81.03
+142,2023-08-29,1425,South,Partner,Home,Curtains,13,86.04,1118.52,856.56,261.96
+143,2023-02-21,1169,West,Partner,Furniture,Sofa,12,209.94,2519.28,1278.08,1241.2
+144,2023-04-06,1140,South,Partner,Clothing,T-Shirt,2,42.77,85.54,65.22,20.32
+145,2023-08-10,1038,East,Partner,Clothing,T-Shirt,18,75.81,1364.58,1009.29,355.29
+146,2023-08-19,1476,South,Online,Home,Rug,14,72.83,1019.62,744.48,275.14
+147,2023-08-25,1238,South,Retail,Electronics,Smartphone,12,645.9,7750.8,5906.91,1843.89
+148,2023-05-23,1339,North,Retail,Furniture,Sofa,10,188.75,1887.5,1134.22,753.28
+149,2023-06-20,1428,South,Retail,Home,Curtains,5,91.15,455.75,228.33,227.42
+150,2023-01-29,1145,East,Partner,Electronics,Headphones,14,526.92,7376.88,5575.79,1801.09
+151,2023-02-05,1974,North,Online,Clothing,T-Shirt,5,43.52,217.6,109.97,107.63
+152,2023-01-13,1963,East,Online,Electronics,Laptop,9,459.41,4134.69,2553.13,1581.56
+153,2023-06-09,1996,West,Online,Furniture,Office Chair,12,318.46,3821.52,2825.62,995.9
+154,2023-11-23,1318,East,Partner,Furniture,Sofa,11,263.28,2896.08,2301.51,594.57
+155,2023-07-06,1225,North,Retail,Furniture,Sofa,14,265.12,3711.68,2862.14,849.54
+156,2023-08-31,1659,West,Retail,Furniture,Office Chair,7,323.68,2265.76,1290.35,975.41
+157,2023-03-27,1225,North,Partner,Electronics,Laptop,19,604.57,11486.83,6538.31,4948.52
+158,2023-10-11,1773,West,Online,Home,Coffee Table,9,64.95,584.55,428.99,155.56
+159,2023-03-07,1688,East,Partner,Clothing,Jeans,5,44.08,220.4,174.28,46.12
+160,2023-06-19,1572,East,Retail,Office Supplies,Printer Paper,9,31.42,282.78,225.79,56.99
+161,2023-02-14,1144,North,Online,Clothing,Sneakers,10,60.55,605.5,391.97,213.53
+162,2023-03-03,1119,East,Retail,Clothing,Jacket,3,71.37,214.11,121.47,92.64
+163,2023-05-14,1356,South,Retail,Home,Lamp,15,57.67,865.05,664.77,200.28
+164,2023-10-11,1634,South,Online,Home,Rug,2,77.96,155.92,96.26,59.66
+165,2023-01-28,1169,South,Retail,Clothing,Jacket,9,43.6,392.4,296.52,95.88
+166,2023-04-18,1394,North,Online,Home,Curtains,9,71.79,646.11,503.63,142.48
+167,2023-02-13,1327,South,Online,Electronics,Smartphone,2,567.04,1134.08,693.84,440.24
+168,2023-12-06,1036,North,Online,Home,Coffee Table,5,58.34,291.7,192.46,99.24
+169,2023-10-13,1592,West,Retail,Home,Curtains,16,88.8,1420.8,742.85,677.95
+170,2023-11-27,1348,North,Retail,Furniture,Bookshelf,18,249.27,4486.86,2890.33,1596.53
+171,2023-05-08,1865,East,Partner,Office Supplies,Stapler,19,29.87,567.53,342.98,224.55
+172,2023-12-14,1261,West,Partner,Furniture,Office Chair,8,259.86,2078.88,1205.98,872.9
+173,2023-08-19,1570,West,Partner,Home,Coffee Table,19,97.67,1855.73,1064.42,791.31
+174,2023-07-09,1344,South,Online,Home,Coffee Table,16,90.0,1440.0,1081.59,358.41
+175,2023-08-13,1699,West,Retail,Electronics,Smartphone,10,458.1,4581.0,3251.12,1329.88
+176,2023-10-10,1760,North,Retail,Furniture,Bookshelf,7,307.25,2150.75,1695.64,455.11
+177,2023-05-01,1671,South,Partner,Clothing,Jacket,19,73.65,1399.35,701.83,697.52
+178,2023-04-26,1081,North,Partner,Clothing,Jacket,11,50.23,552.53,426.89,125.64
+179,2023-08-21,1523,North,Retail,Home,Curtains,4,82.7,330.8,240.49,90.31
+180,2023-09-16,1666,West,Retail,Furniture,Office Chair,7,203.97,1427.79,749.92,677.87
+181,2023-12-25,1865,West,Online,Electronics,Tablet,17,621.54,10566.18,5650.3,4915.88
+182,2023-07-17,1413,North,Online,Home,Curtains,13,93.43,1214.59,646.28,568.31
+183,2023-05-17,1830,West,Retail,Furniture,Bookshelf,7,256.19,1793.33,1414.75,378.58
+184,2023-11-14,1195,East,Partner,Furniture,Bookshelf,15,314.8,4722.0,2506.22,2215.78
+185,2023-06-14,1016,North,Online,Clothing,Jeans,4,44.44,177.76,104.93,72.83
+186,2023-08-13,1704,West,Partner,Electronics,Smartphone,12,444.25,5331.0,3596.57,1734.43
+187,2023-11-03,1284,East,Partner,Home,Lamp,18,97.83,1760.94,1394.75,366.19
+188,2023-08-22,1380,South,Retail,Office Supplies,Notepad,12,28.74,344.88,185.9,158.98
+189,2023-06-21,1645,East,Retail,Office Supplies,Pens,12,17.87,214.44,108.64,105.8
+190,2023-06-01,1569,East,Retail,Home,Lamp,15,79.45,1191.75,871.31,320.44
+191,2023-11-11,1976,East,Online,Home,Lamp,2,69.13,138.26,110.49,27.77
+192,2023-06-09,1886,East,Online,Furniture,Bookshelf,3,242.71,728.13,399.81,328.32
+193,2023-04-06,1973,West,Partner,Electronics,Headphones,11,499.48,5494.28,2882.93,2611.35
+194,2023-08-21,1747,South,Retail,Home,Coffee Table,11,69.12,760.32,597.05,163.27
+195,2023-06-29,1773,North,Partner,Clothing,Sneakers,15,57.11,856.65,592.42,264.23
+196,2023-04-23,1256,East,Online,Clothing,T-Shirt,19,51.87,985.53,783.69,201.84
+197,2023-11-14,1831,East,Online,Furniture,Bookshelf,6,209.49,1256.94,708.83,548.11
+198,2023-02-21,1270,East,Online,Furniture,Desk,17,272.75,4636.75,2831.0,1805.75
+199,2023-09-25,1429,South,Partner,Electronics,Headphones,12,590.36,7084.32,5599.86,1484.46
+200,2023-10-22,1026,North,Online,Clothing,Sneakers,17,45.28,769.76,420.36,349.4
+201,2023-04-23,1348,North,Partner,Furniture,Bookshelf,14,254.55,3563.7,1800.95,1762.75
+202,2023-04-11,1898,West,Retail,Home,Lamp,12,57.56,690.72,536.17,154.55
+203,2023-04-23,1454,South,Online,Clothing,Jeans,14,58.64,820.96,410.78,410.18
+204,2023-03-22,1520,West,Retail,Clothing,Jeans,17,63.86,1085.62,623.43,462.19
+205,2023-07-06,1725,East,Online,Furniture,Office Chair,6,208.83,1252.98,686.94,566.04
+206,2023-04-23,1716,South,Online,Office Supplies,Stapler,2,29.46,58.92,34.95,23.97
+207,2023-01-02,1319,South,Retail,Home,Curtains,17,56.56,961.52,501.66,459.86
+208,2023-05-10,1543,South,Online,Clothing,Sneakers,18,59.28,1067.04,725.59,341.45
+209,2023-08-08,1101,South,Partner,Clothing,T-Shirt,11,67.02,737.22,558.84,178.38
+210,2023-02-23,1087,East,Online,Office Supplies,Stapler,9,18.09,162.81,104.87,57.94
+211,2023-12-09,1671,North,Partner,Furniture,Office Chair,9,211.31,1901.79,1513.82,387.97
+212,2023-08-12,1659,South,Partner,Electronics,Tablet,15,599.6,8994.0,6164.91,2829.09
+213,2023-08-13,1864,West,Partner,Home,Curtains,1,82.86,82.86,41.67,41.19
+214,2023-05-06,1925,East,Retail,Home,Coffee Table,2,81.64,163.28,124.87,38.41
+215,2023-05-10,1102,North,Retail,Office Supplies,Notepad,1,29.87,29.87,18.14,11.73
+216,2023-02-22,1121,North,Retail,Electronics,Tablet,2,771.89,1543.78,864.91,678.87
+217,2023-06-21,1427,South,Partner,Home,Curtains,18,95.43,1717.74,880.09,837.65
+218,2023-08-06,1634,East,Retail,Electronics,Headphones,17,762.56,12963.52,6964.86,5998.66
+219,2023-06-09,1222,East,Retail,Office Supplies,Stapler,6,26.42,158.52,108.58,49.94
+220,2023-07-17,1689,South,Retail,Clothing,T-Shirt,9,67.53,607.77,462.69,145.08
+221,2023-09-04,1083,North,Partner,Electronics,Tablet,15,713.34,10700.1,5607.22,5092.88
+222,2023-11-20,1409,East,Online,Home,Coffee Table,16,82.28,1316.48,981.03,335.45
+223,2023-07-22,1013,North,Retail,Office Supplies,Pens,3,18.11,54.33,29.84,24.49
+224,2023-07-03,1523,East,Partner,Home,Lamp,11,90.79,998.69,677.1,321.59
+225,2023-05-03,1146,West,Retail,Clothing,Jeans,13,59.25,770.25,527.41,242.84
+226,2023-09-12,1630,South,Online,Clothing,T-Shirt,14,54.13,757.82,420.31,337.51
+227,2023-10-21,1722,South,Online,Furniture,Office Chair,19,199.25,3785.75,1916.57,1869.18
+228,2023-10-07,1642,North,Partner,Furniture,Sofa,5,324.45,1622.25,1285.53,336.72
+229,2023-11-21,1949,South,Retail,Office Supplies,Notepad,10,23.55,235.5,133.33,102.17
+230,2023-04-08,1861,West,Retail,Furniture,Sofa,15,213.65,3204.75,2047.15,1157.6
+231,2023-07-17,1531,East,Retail,Furniture,Desk,5,226.89,1134.45,693.5,440.95
+232,2023-08-28,1419,North,Online,Home,Curtains,18,97.62,1757.16,1183.63,573.53
+233,2023-05-24,1417,South,Online,Office Supplies,Stapler,2,24.8,49.6,37.8,11.8
+234,2023-04-07,1370,North,Retail,Home,Coffee Table,4,76.24,304.96,177.81,127.15
+235,2023-07-20,1020,South,Retail,Clothing,Sneakers,12,55.82,669.84,428.53,241.31
+236,2023-05-04,1099,South,Online,Furniture,Desk,15,210.37,3155.55,2312.39,843.16
+237,2023-07-06,1525,North,Partner,Home,Lamp,16,84.89,1358.24,936.86,421.38
+238,2023-11-22,1933,South,Partner,Home,Coffee Table,14,80.61,1128.54,704.11,424.43
+239,2023-12-15,1380,East,Online,Furniture,Sofa,13,240.57,3127.41,1655.08,1472.33
+240,2023-09-16,1083,East,Retail,Clothing,Jacket,15,63.35,950.25,640.3,309.95
+241,2023-05-28,1856,East,Partner,Electronics,Headphones,2,454.29,908.58,632.04,276.54
+242,2023-09-09,1448,West,Online,Furniture,Sofa,2,303.7,607.4,305.35,302.05
+243,2023-12-12,1918,North,Partner,Home,Curtains,8,84.74,677.92,419.63,258.29
+244,2023-05-27,1629,North,Partner,Home,Lamp,15,67.26,1008.9,771.92,236.98
+245,2023-05-28,1843,North,Partner,Clothing,Sneakers,14,53.91,754.74,478.98,275.76
+246,2023-12-18,1682,East,Online,Home,Lamp,9,76.68,690.12,396.55,293.57
+247,2023-07-18,1979,East,Retail,Office Supplies,Pens,12,28.1,337.2,185.5,151.7
+248,2023-11-04,1164,South,Online,Electronics,Laptop,11,685.1,7536.1,5268.8,2267.3
+249,2023-05-08,1155,East,Retail,Office Supplies,Printer Paper,17,30.16,512.72,380.28,132.44
+250,2023-02-08,1956,North,Retail,Electronics,Smartphone,15,732.58,10988.7,6172.93,4815.77
+251,2023-12-04,1292,West,Partner,Home,Rug,18,103.36,1860.48,998.88,861.6
+252,2023-12-26,1756,West,Online,Home,Rug,1,61.86,61.86,39.32,22.54
+253,2023-05-09,1011,West,Retail,Electronics,Headphones,5,457.19,2285.95,1543.93,742.02
+254,2023-09-24,1250,West,Retail,Clothing,Jeans,10,56.31,563.1,362.62,200.48
+255,2023-05-31,1796,North,Partner,Office Supplies,Notepad,11,17.76,195.36,116.62,78.74
+256,2023-10-25,1177,North,Partner,Electronics,Headphones,7,583.71,4085.97,2675.0,1410.97
+257,2023-04-09,1637,East,Retail,Clothing,Jeans,12,61.16,733.92,394.65,339.27
+258,2023-09-20,1891,South,Partner,Office Supplies,Stapler,13,19.65,255.45,199.75,55.7
+259,2023-09-09,1775,North,Online,Office Supplies,Notepad,8,32.05,256.4,135.42,120.98
+260,2023-05-24,1801,East,Online,Home,Coffee Table,6,97.67,586.02,324.15,261.87
+261,2023-12-12,1969,North,Partner,Home,Curtains,1,96.23,96.23,75.39,20.84
+262,2023-04-22,1302,South,Retail,Office Supplies,Printer Paper,18,21.16,380.88,285.38,95.5
+263,2023-03-01,1344,South,Retail,Electronics,Laptop,8,696.67,5573.36,2975.8,2597.56
+264,2023-01-02,1286,West,Partner,Furniture,Bookshelf,14,312.8,4379.2,2978.66,1400.54
+265,2023-10-31,1360,West,Partner,Furniture,Bookshelf,16,299.03,4784.48,3349.57,1434.91
+266,2023-09-11,1584,North,Retail,Electronics,Laptop,2,779.79,1559.58,802.35,757.23
+267,2023-05-20,1584,West,Online,Electronics,Smartphone,1,566.49,566.49,431.23,135.26
+268,2023-02-06,1609,South,Online,Office Supplies,Stapler,13,21.83,283.79,151.18,132.61
+269,2023-06-09,1453,North,Partner,Furniture,Desk,6,224.05,1344.3,941.38,402.92
+270,2023-01-09,1850,West,Retail,Clothing,Jacket,2,69.44,138.88,102.68,36.2
+271,2023-08-21,1821,North,Online,Home,Curtains,13,95.26,1238.38,663.85,574.53
+272,2023-04-09,1075,West,Online,Home,Lamp,7,56.28,393.96,235.34,158.62
+273,2023-05-27,1604,East,Retail,Home,Curtains,7,83.05,581.35,357.02,224.33
+274,2023-10-31,1939,East,Retail,Electronics,Smartphone,1,505.52,505.52,309.37,196.15
+275,2023-07-27,1621,South,Partner,Office Supplies,Stapler,6,18.6,111.6,76.0,35.6
+276,2023-05-11,1002,West,Retail,Office Supplies,Printer Paper,14,26.79,375.06,239.68,135.38
+277,2023-06-01,1628,West,Partner,Electronics,Smartphone,8,606.87,4854.96,3125.4,1729.56
+278,2023-02-23,1974,North,Partner,Electronics,Headphones,12,473.64,5683.68,3739.79,1943.89
+279,2023-04-30,1342,West,Online,Home,Lamp,12,78.88,946.56,585.27,361.29
+280,2023-06-10,1426,South,Online,Electronics,Smartphone,6,688.88,4133.28,2953.84,1179.44
+281,2023-04-26,1335,West,Retail,Electronics,Tablet,13,716.06,9308.78,5857.63,3451.15
+282,2023-03-16,1803,South,Partner,Home,Curtains,15,59.42,891.3,700.92,190.38
+283,2023-04-23,1140,East,Retail,Furniture,Sofa,11,232.01,2552.11,1427.0,1125.11
+284,2023-04-14,1372,North,Online,Clothing,Sneakers,19,45.65,867.35,560.1,307.25
+285,2023-12-06,1290,South,Retail,Office Supplies,Pens,14,22.11,309.54,229.34,80.2
+286,2023-09-11,1657,East,Partner,Furniture,Bookshelf,8,221.7,1773.6,1211.55,562.05
+287,2023-08-15,1344,East,Retail,Office Supplies,Stapler,2,21.59,43.18,26.95,16.23
+288,2023-04-22,1038,East,Retail,Office Supplies,Pens,11,19.35,212.85,161.3,51.55
+289,2023-04-09,1240,East,Online,Electronics,Tablet,13,486.45,6323.85,3722.11,2601.74
+290,2023-06-02,1083,West,Partner,Office Supplies,Pens,10,20.28,202.8,157.24,45.56
+291,2023-12-15,1171,West,Partner,Furniture,Office Chair,4,188.06,752.24,560.21,192.03
+292,2023-12-04,1886,North,Online,Furniture,Desk,13,269.97,3509.61,2756.52,753.09
+293,2023-07-13,1983,North,Online,Clothing,T-Shirt,9,70.57,635.13,440.77,194.36
+294,2023-11-06,1153,West,Online,Furniture,Bookshelf,10,310.0,3100.0,1878.68,1221.32
+295,2023-06-12,1611,East,Retail,Electronics,Tablet,5,528.74,2643.7,1902.37,741.33
+296,2023-07-27,1675,East,Online,Furniture,Bookshelf,7,275.13,1925.91,1018.15,907.76
+297,2023-06-18,1686,West,Partner,Office Supplies,Printer Paper,10,24.28,242.8,164.13,78.67
+298,2023-06-10,1630,East,Retail,Home,Lamp,17,91.37,1553.29,1178.7,374.59
+299,2023-03-09,1418,East,Retail,Home,Curtains,17,64.57,1097.69,651.68,446.01
+300,2023-10-16,1589,East,Partner,Clothing,Jeans,7,61.68,431.76,245.92,185.84
+301,2023-10-04,1769,South,Partner,Clothing,Jacket,13,63.4,824.2,534.93,289.27
+302,2023-10-31,1553,South,Retail,Electronics,Laptop,3,634.94,1904.82,1338.62,566.2
+303,2023-05-15,1279,South,Partner,Home,Lamp,7,90.78,635.46,320.75,314.71
+304,2023-07-14,1553,East,Retail,Home,Lamp,14,61.0,854.0,612.58,241.42
+305,2023-05-08,1740,East,Online,Clothing,Jeans,7,69.81,488.67,283.17,205.5
+306,2023-02-02,1352,South,Partner,Office Supplies,Stapler,1,26.44,26.44,16.4,10.04
+307,2023-06-25,1560,South,Partner,Clothing,Jacket,6,54.78,328.68,171.19,157.49
+308,2023-01-22,1159,East,Partner,Clothing,Sneakers,2,66.11,132.22,68.88,63.34
+309,2023-08-26,1811,South,Retail,Electronics,Tablet,8,736.83,5894.64,4098.33,1796.31
+310,2023-06-07,1171,North,Retail,Furniture,Sofa,3,203.55,610.65,314.91,295.74
+311,2023-02-07,1470,East,Retail,Home,Coffee Table,2,73.42,146.84,117.27,29.57
+312,2023-08-18,1452,North,Retail,Home,Curtains,8,83.86,670.88,353.31,317.57
+313,2023-12-31,1310,East,Online,Furniture,Sofa,13,270.24,3513.12,2552.11,961.01
+314,2023-02-20,1054,South,Online,Electronics,Laptop,16,567.41,9078.56,5690.5,3388.06
+315,2023-09-21,1647,East,Partner,Office Supplies,Pens,16,17.52,280.32,165.46,114.86
+316,2023-10-10,1347,East,Retail,Clothing,Jacket,3,75.38,226.14,128.99,97.15
+317,2023-01-27,1871,East,Retail,Office Supplies,Notepad,19,19.79,376.01,299.96,76.05
+318,2023-08-14,1083,North,Online,Clothing,Jacket,12,50.77,609.24,427.36,181.88
+319,2023-10-04,1799,West,Partner,Clothing,Jeans,6,51.25,307.5,226.43,81.07
+320,2023-10-13,1499,East,Retail,Home,Rug,1,85.21,85.21,55.56,29.65
+321,2023-04-07,1662,East,Retail,Clothing,Jacket,2,44.27,88.54,47.39,41.15
+322,2023-10-11,1769,South,Partner,Clothing,Jeans,18,54.3,977.4,600.39,377.01
+323,2023-11-13,1701,North,Online,Clothing,T-Shirt,9,60.35,543.15,406.05,137.1
+324,2023-10-31,1405,North,Retail,Furniture,Bookshelf,4,306.0,1224.0,671.4,552.6
+325,2023-05-27,1243,West,Online,Office Supplies,Printer Paper,11,26.12,287.32,192.5,94.82
+326,2023-01-04,1677,East,Online,Clothing,Sneakers,10,60.04,600.4,371.74,228.66
+327,2023-02-04,1669,West,Retail,Electronics,Laptop,18,646.06,11629.08,8167.0,3462.08
+328,2023-07-11,1947,North,Online,Home,Coffee Table,14,94.68,1325.52,976.92,348.6
+329,2023-02-18,1577,North,Partner,Office Supplies,Stapler,14,18.71,261.94,162.64,99.3
+330,2023-01-17,1977,East,Online,Clothing,T-Shirt,2,50.05,100.1,78.8,21.3
+331,2023-06-21,1821,East,Retail,Furniture,Office Chair,10,298.37,2983.7,1610.47,1373.23
+332,2023-08-08,1109,South,Partner,Home,Coffee Table,1,100.29,100.29,64.8,35.49
+333,2023-06-07,1898,North,Online,Home,Coffee Table,16,92.71,1483.36,819.48,663.88
+334,2023-02-15,1116,North,Retail,Clothing,T-Shirt,3,56.35,169.05,91.95,77.1
+335,2023-01-06,1536,South,Partner,Electronics,Smartphone,2,444.54,889.08,451.42,437.66
+336,2023-04-09,1799,West,Retail,Office Supplies,Printer Paper,15,31.95,479.25,318.63,160.62
+337,2023-08-21,1988,East,Online,Clothing,T-Shirt,13,75.71,984.23,750.8,233.43
+338,2023-02-06,1129,West,Retail,Office Supplies,Pens,6,17.5,105.0,53.06,51.94
+339,2023-10-07,1929,East,Online,Office Supplies,Stapler,19,23.3,442.7,296.31,146.39
+340,2023-12-15,1689,West,Online,Home,Coffee Table,10,66.16,661.6,426.98,234.62
+341,2023-10-29,1098,North,Online,Home,Rug,15,103.22,1548.3,885.25,663.05
+342,2023-06-30,1262,South,Online,Home,Lamp,9,93.57,842.13,488.11,354.02
+343,2023-04-05,1771,North,Partner,Home,Lamp,16,89.2,1427.2,978.23,448.97
+344,2023-04-09,1379,South,Retail,Home,Coffee Table,7,66.99,468.93,267.19,201.74
+345,2023-07-07,1062,East,Retail,Electronics,Headphones,4,609.73,2438.92,1531.21,907.71
+346,2023-04-26,1482,North,Online,Furniture,Sofa,5,307.99,1539.95,977.77,562.18
+347,2023-07-10,1454,West,Retail,Home,Lamp,7,81.22,568.54,366.42,202.12
+348,2023-09-10,1182,East,Retail,Clothing,Sneakers,5,55.93,279.65,220.68,58.97
+349,2023-06-10,1741,West,Retail,Office Supplies,Stapler,2,19.51,39.02,24.41,14.61
+350,2023-09-13,1887,East,Partner,Furniture,Office Chair,15,262.32,3934.8,2771.25,1163.55
+351,2023-11-19,1985,North,Retail,Clothing,Jeans,7,64.28,449.96,268.65,181.31
+352,2023-05-08,1996,East,Online,Furniture,Desk,18,269.39,4849.02,2713.79,2135.23
+353,2023-01-18,1496,West,Partner,Office Supplies,Pens,13,18.14,235.82,144.19,91.63
+354,2023-10-08,1182,West,Partner,Furniture,Office Chair,11,243.16,2674.76,2014.92,659.84
+355,2023-08-11,1593,South,Partner,Home,Coffee Table,4,97.5,390.0,223.49,166.51
+356,2023-02-23,1924,North,Online,Clothing,Jacket,8,71.18,569.44,389.62,179.82
+357,2023-02-27,1624,South,Retail,Home,Lamp,6,74.83,448.98,353.29,95.69
+358,2023-11-19,1424,East,Retail,Office Supplies,Stapler,9,19.03,171.27,119.48,51.79
+359,2023-12-26,1096,North,Retail,Clothing,T-Shirt,1,71.12,71.12,37.19,33.93
+360,2023-06-23,1231,East,Retail,Home,Lamp,10,100.66,1006.6,579.72,426.88
+361,2023-10-07,1725,East,Partner,Office Supplies,Printer Paper,11,24.93,274.23,168.9,105.33
+362,2023-04-24,1854,South,Partner,Clothing,Sneakers,8,50.17,401.36,307.77,93.59
+363,2023-10-15,1448,South,Partner,Clothing,T-Shirt,13,47.41,616.33,444.52,171.81
+364,2023-12-08,1086,South,Partner,Furniture,Bookshelf,5,182.17,910.85,465.81,445.04
+365,2023-05-31,1482,South,Online,Furniture,Office Chair,11,273.86,3012.46,2231.15,781.31
+366,2023-05-07,1825,West,Online,Office Supplies,Printer Paper,17,31.85,541.45,390.52,150.93
+367,2023-06-04,1210,South,Partner,Furniture,Sofa,14,323.74,4532.36,3586.12,946.24
+368,2023-09-30,1441,North,Retail,Clothing,Jeans,7,70.22,491.54,298.1,193.44
+369,2023-04-14,1519,South,Retail,Office Supplies,Notepad,5,25.74,128.7,96.42,32.28
+370,2023-10-26,1219,North,Online,Clothing,T-Shirt,10,42.75,427.5,224.29,203.21
+371,2023-09-03,1920,South,Retail,Office Supplies,Printer Paper,17,21.93,372.81,272.44,100.37
+372,2023-06-25,1560,North,Online,Office Supplies,Pens,9,23.23,209.07,117.44,91.63
+373,2023-02-08,1168,North,Retail,Clothing,Jeans,4,64.14,256.56,187.9,68.66
+374,2023-06-19,1858,East,Retail,Home,Rug,18,71.47,1286.46,691.56,594.9
+375,2023-09-04,1159,North,Online,Clothing,Sneakers,8,46.1,368.8,238.17,130.63
+376,2023-01-26,1522,South,Partner,Clothing,T-Shirt,16,71.22,1139.52,794.18,345.34
+377,2023-12-21,1182,North,Retail,Office Supplies,Printer Paper,10,22.57,225.7,175.69,50.01
+378,2023-11-02,1123,North,Retail,Furniture,Desk,9,230.83,2077.47,1308.02,769.45
+379,2023-01-13,1724,West,Online,Furniture,Desk,18,316.46,5696.28,3259.46,2436.82
+380,2023-11-12,1887,East,Partner,Electronics,Smartphone,12,491.09,5893.08,4514.56,1378.52
+381,2023-11-09,1038,North,Partner,Clothing,T-Shirt,3,66.17,198.51,118.13,80.38
+382,2023-02-05,1148,West,Online,Furniture,Sofa,17,213.76,3633.92,2410.03,1223.89
+383,2023-06-22,1301,South,Online,Furniture,Desk,13,208.16,2706.08,2147.33,558.75
+384,2023-01-20,1735,West,Retail,Home,Curtains,8,82.78,662.24,367.0,295.24
+385,2023-11-17,1344,South,Online,Clothing,Jacket,11,53.52,588.72,427.38,161.34
+386,2023-09-21,1462,North,Retail,Clothing,Jeans,13,47.93,623.09,336.17,286.92
+387,2023-05-22,1087,South,Retail,Furniture,Bookshelf,18,207.03,3726.54,2428.79,1297.75
+388,2023-05-23,1700,South,Online,Office Supplies,Notepad,12,28.49,341.88,226.55,115.33
+389,2023-04-02,1018,North,Online,Furniture,Desk,1,251.25,251.25,148.05,103.2
+390,2023-12-20,1228,East,Partner,Home,Curtains,7,83.7,585.9,447.12,138.78
+391,2023-11-18,1583,North,Online,Clothing,T-Shirt,15,47.79,716.85,478.43,238.42
+392,2023-10-15,1899,South,Partner,Furniture,Bookshelf,1,286.26,286.26,218.83,67.43
+393,2023-08-03,1865,East,Online,Furniture,Sofa,8,204.09,1632.72,1247.31,385.41
+394,2023-12-08,1301,East,Retail,Home,Curtains,11,70.92,780.12,563.8,216.32
+395,2023-02-20,1111,North,Online,Electronics,Headphones,7,641.39,4489.73,3171.39,1318.34
+396,2023-06-02,1233,North,Online,Home,Lamp,13,81.86,1064.18,699.43,364.75
+397,2023-07-05,1417,East,Partner,Electronics,Smartphone,12,688.46,8261.52,4632.6,3628.92
+398,2023-03-04,1069,West,Online,Office Supplies,Pens,11,28.84,317.24,238.75,78.49
+399,2023-07-09,1380,West,Partner,Office Supplies,Notepad,19,32.45,616.55,376.4,240.15
+400,2023-05-05,1226,East,Online,Home,Coffee Table,4,90.66,362.64,277.73,84.91
+401,2023-05-30,1870,West,Online,Electronics,Smartphone,5,658.7,3293.5,1648.61,1644.89
+402,2023-11-10,1056,East,Retail,Clothing,Sneakers,10,64.31,643.1,390.14,252.96
+403,2023-02-27,1515,East,Online,Furniture,Bookshelf,13,188.95,2456.35,1661.62,794.73
+404,2023-12-08,1697,South,Online,Furniture,Sofa,14,283.51,3969.14,2108.57,1860.57
+405,2023-11-01,1669,East,Partner,Electronics,Headphones,4,439.01,1756.04,1134.37,621.67
+406,2023-06-29,1914,West,Retail,Clothing,Jeans,18,63.68,1146.24,581.01,565.23
+407,2023-06-19,1663,North,Online,Home,Lamp,17,86.55,1471.35,801.44,669.91
+408,2023-11-22,1116,West,Partner,Clothing,Sneakers,13,68.85,895.05,711.2,183.85
+409,2023-09-28,1739,East,Partner,Electronics,Smartphone,4,606.22,2424.88,1532.67,892.21
+410,2023-02-23,1627,South,Retail,Clothing,T-Shirt,17,57.62,979.54,515.81,463.73
+411,2023-04-11,1970,North,Retail,Electronics,Headphones,17,635.36,10801.12,7784.36,3016.76
+412,2023-09-21,1659,East,Retail,Electronics,Smartphone,13,482.45,6271.85,4335.52,1936.33
+413,2023-02-22,1558,North,Online,Furniture,Office Chair,16,201.74,3227.84,2278.12,949.72
+414,2023-03-01,1601,North,Partner,Electronics,Smartphone,14,689.0,9646.0,6964.37,2681.63
+415,2023-04-18,1137,South,Partner,Furniture,Sofa,16,205.44,3287.04,2201.22,1085.82
+416,2023-01-05,1861,East,Partner,Furniture,Desk,18,199.79,3596.22,2553.59,1042.63
+417,2023-04-13,1562,North,Online,Home,Lamp,13,89.49,1163.37,906.13,257.24
+418,2023-07-15,1580,East,Retail,Electronics,Tablet,19,513.35,9753.65,6134.04,3619.61
+419,2023-09-19,1703,South,Retail,Office Supplies,Notepad,5,24.71,123.55,77.9,45.65
+420,2023-12-31,1637,North,Retail,Electronics,Tablet,5,674.17,3370.85,2323.7,1047.15
+421,2023-12-16,1791,North,Online,Electronics,Smartphone,7,745.41,5217.87,4032.46,1185.41
+422,2023-02-16,1827,South,Partner,Office Supplies,Notepad,4,28.98,115.92,63.49,52.43
+423,2023-12-21,1663,North,Online,Home,Coffee Table,12,62.5,750.0,544.06,205.94
+424,2023-11-07,1617,North,Partner,Home,Coffee Table,4,56.64,226.56,132.5,94.06
+425,2023-11-04,1631,South,Online,Office Supplies,Printer Paper,7,21.2,148.4,114.55,33.85
+426,2023-05-24,1617,North,Retail,Home,Rug,10,69.05,690.5,502.56,187.94
+427,2023-09-26,1227,North,Partner,Electronics,Laptop,13,516.53,6714.89,3672.47,3042.42
+428,2023-05-04,1440,South,Partner,Office Supplies,Stapler,11,18.44,202.84,156.58,46.26
+429,2023-04-16,1069,South,Retail,Home,Rug,4,71.13,284.52,208.14,76.38
+430,2023-06-07,1147,North,Partner,Home,Lamp,15,57.05,855.75,598.29,257.46
+431,2023-05-27,1665,East,Online,Home,Curtains,15,98.34,1475.1,911.66,563.44
+432,2023-05-25,1164,West,Online,Home,Curtains,12,93.81,1125.72,773.74,351.98
+433,2023-04-30,1932,East,Online,Furniture,Sofa,18,196.74,3541.32,2541.06,1000.26
+434,2023-11-15,1383,North,Retail,Electronics,Tablet,17,587.02,9979.34,7899.66,2079.68
+435,2023-10-02,1177,West,Partner,Home,Lamp,12,72.78,873.36,466.57,406.79
+436,2023-04-02,1597,North,Retail,Home,Curtains,4,76.06,304.24,160.23,144.01
+437,2023-02-27,1353,North,Retail,Electronics,Tablet,1,608.42,608.42,325.16,283.26
+438,2023-12-12,1528,West,Online,Office Supplies,Stapler,11,18.52,203.72,145.12,58.6
+439,2023-08-17,1576,South,Partner,Electronics,Tablet,2,449.42,898.84,573.0,325.84
+440,2023-04-27,1111,North,Retail,Home,Lamp,10,63.96,639.6,501.26,138.34
+441,2023-11-14,1434,North,Partner,Home,Rug,2,60.68,121.36,92.06,29.3
+442,2023-10-06,1935,East,Online,Home,Rug,7,82.18,575.26,298.38,276.88
+443,2023-05-07,1703,West,Partner,Electronics,Headphones,6,710.31,4261.86,2718.09,1543.77
+444,2023-05-09,1390,North,Partner,Home,Lamp,19,93.74,1781.06,998.12,782.94
+445,2023-02-27,1375,North,Retail,Office Supplies,Printer Paper,4,28.85,115.4,75.68,39.72
+446,2023-05-02,1603,North,Partner,Furniture,Desk,8,306.67,2453.36,1874.06,579.3
+447,2023-01-01,1057,West,Online,Furniture,Office Chair,14,210.82,2951.48,1875.29,1076.19
+448,2023-08-27,1253,East,Retail,Furniture,Sofa,17,179.08,3044.36,1581.73,1462.63
+449,2023-10-17,1226,South,Partner,Clothing,Jacket,3,74.73,224.19,148.33,75.86
+450,2023-04-06,1378,East,Retail,Furniture,Office Chair,6,230.79,1384.74,880.01,504.73
+451,2023-05-06,1778,South,Retail,Home,Coffee Table,18,60.48,1088.64,688.37,400.27
+452,2023-04-28,1475,West,Retail,Clothing,T-Shirt,12,60.84,730.08,427.93,302.15
+453,2023-02-17,1566,South,Partner,Electronics,Headphones,9,627.93,5651.37,3901.56,1749.81
+454,2023-03-30,1103,West,Partner,Clothing,Jacket,9,56.25,506.25,392.1,114.15
+455,2023-08-25,1267,West,Retail,Clothing,Jeans,18,47.69,858.42,608.42,250.0
+456,2023-09-29,1258,East,Partner,Clothing,T-Shirt,2,53.4,106.8,80.86,25.94
+457,2023-07-08,1219,West,Online,Furniture,Bookshelf,18,200.33,3605.94,2351.49,1254.45
+458,2023-07-11,1927,North,Partner,Office Supplies,Pens,1,18.0,18.0,10.96,7.04
+459,2023-03-10,1965,North,Online,Office Supplies,Printer Paper,16,19.78,316.48,200.05,116.43
+460,2023-10-05,1523,West,Partner,Clothing,Jacket,14,45.0,630.0,481.78,148.22
+461,2023-12-15,1574,West,Partner,Office Supplies,Printer Paper,11,25.08,275.88,217.98,57.9
+462,2023-09-04,1268,West,Partner,Clothing,Jeans,13,77.43,1006.59,704.99,301.6
+463,2023-03-17,1734,East,Online,Clothing,Jacket,2,47.97,95.94,73.35,22.59
+464,2023-06-03,1792,North,Partner,Electronics,Laptop,5,621.51,3107.55,2045.45,1062.1
+465,2023-05-24,1226,East,Retail,Furniture,Sofa,2,206.46,412.92,253.41,159.51
+466,2023-03-27,1210,North,Retail,Clothing,Jacket,9,71.49,643.41,426.09,217.32
+467,2023-07-04,1363,North,Retail,Furniture,Sofa,12,323.21,3878.52,2987.97,890.55
+468,2023-10-12,1981,West,Retail,Electronics,Laptop,12,533.06,6396.72,3686.41,2710.31
+469,2023-08-08,1276,South,Online,Home,Coffee Table,3,98.23,294.69,193.8,100.89
+470,2023-03-10,1040,North,Partner,Office Supplies,Pens,1,21.1,21.1,11.45,9.65
+471,2023-02-16,1952,South,Online,Office Supplies,Stapler,19,24.26,460.94,334.02,126.92
+472,2023-04-04,1619,North,Online,Office Supplies,Printer Paper,16,26.16,418.56,301.96,116.6
+473,2023-08-26,1288,North,Retail,Home,Lamp,11,96.5,1061.5,611.63,449.87
+474,2023-07-23,1247,East,Online,Furniture,Desk,16,190.95,3055.2,1816.24,1238.96
+475,2023-08-06,1123,South,Online,Office Supplies,Notepad,15,20.12,301.8,228.38,73.42
+476,2023-12-07,1190,North,Online,Furniture,Bookshelf,1,300.56,300.56,175.46,125.1
+477,2023-02-08,1805,South,Retail,Furniture,Sofa,3,279.12,837.36,547.46,289.9
+478,2023-04-10,1628,East,Online,Office Supplies,Notepad,15,20.69,310.35,158.27,152.08
+479,2023-10-16,1400,West,Online,Home,Coffee Table,14,92.44,1294.16,997.9,296.26
+480,2023-09-11,1206,East,Online,Clothing,Jacket,7,71.07,497.49,257.56,239.93
+481,2023-08-10,1218,South,Retail,Office Supplies,Notepad,18,27.26,490.68,374.03,116.65
+482,2023-12-23,1611,East,Retail,Clothing,T-Shirt,2,58.09,116.18,74.14,42.04
+483,2023-01-23,1845,North,Retail,Furniture,Bookshelf,8,194.33,1554.64,969.83,584.81
+484,2023-09-07,1153,South,Online,Office Supplies,Printer Paper,17,18.13,308.21,222.52,85.69
+485,2023-01-10,1082,North,Partner,Clothing,Jeans,6,52.08,312.48,236.7,75.78
+486,2023-09-03,1712,South,Partner,Office Supplies,Printer Paper,14,31.16,436.24,316.79,119.45
+487,2023-11-21,1762,East,Online,Home,Curtains,13,102.21,1328.73,954.03,374.7
+488,2023-04-10,1933,North,Retail,Electronics,Headphones,19,734.19,13949.61,7445.94,6503.67
+489,2023-10-17,1319,West,Online,Clothing,Jacket,4,45.48,181.92,104.16,77.76
+490,2023-06-29,1202,East,Online,Clothing,Sneakers,1,58.88,58.88,34.76,24.12
+491,2023-08-11,1040,North,Retail,Electronics,Tablet,3,501.49,1504.47,1081.83,422.64
+492,2023-09-07,1513,West,Partner,Clothing,Sneakers,4,44.32,177.28,135.3,41.98
+493,2023-05-27,1631,North,Partner,Clothing,Jeans,9,53.89,485.01,292.04,192.97
+494,2023-04-06,1669,South,Partner,Office Supplies,Pens,16,21.09,337.44,249.16,88.28
+495,2023-09-14,1561,South,Partner,Office Supplies,Stapler,12,26.24,314.88,251.47,63.41
+496,2023-11-21,1683,South,Online,Clothing,Jacket,5,51.08,255.4,144.57,110.83
+497,2023-01-04,1904,East,Retail,Office Supplies,Stapler,1,28.56,28.56,18.78,9.78
+498,2023-01-16,1479,East,Partner,Clothing,Jacket,4,73.27,293.08,152.23,140.85
+499,2023-10-07,1423,West,Partner,Home,Curtains,1,57.21,57.21,40.52,16.69
+500,2023-12-02,1526,West,Partner,Electronics,Headphones,12,747.84,8974.08,5737.4,3236.68
+501,2023-09-04,1405,West,Partner,Clothing,Sneakers,9,54.27,488.43,268.37,220.06
+502,2023-09-15,1504,East,Online,Furniture,Office Chair,8,317.22,2537.76,1607.86,929.9
+503,2023-06-09,1539,North,Retail,Electronics,Headphones,19,505.48,9604.12,6278.3,3325.82
+504,2023-12-06,1853,West,Retail,Furniture,Sofa,4,232.68,930.72,601.52,329.2
+505,2023-06-01,1950,East,Partner,Clothing,Sneakers,12,76.22,914.64,622.13,292.51
+506,2023-06-27,1261,North,Partner,Furniture,Desk,9,250.94,2258.46,1558.86,699.6
+507,2023-06-12,1729,North,Online,Home,Coffee Table,18,73.37,1320.66,847.53,473.13
+508,2023-02-02,1440,North,Partner,Home,Curtains,8,67.47,539.76,345.93,193.83
+509,2023-06-28,1290,West,Online,Office Supplies,Notepad,13,24.73,321.49,179.66,141.83
+510,2023-04-11,1652,West,Retail,Office Supplies,Stapler,16,21.71,347.36,195.25,152.11
+511,2023-09-25,1135,South,Retail,Office Supplies,Pens,6,30.31,181.86,93.63,88.23
+512,2023-11-19,1806,North,Retail,Home,Curtains,11,96.51,1061.61,621.54,440.07
+513,2023-03-06,1821,South,Retail,Electronics,Headphones,17,498.66,8477.22,5247.73,3229.49
+514,2023-06-17,1552,East,Retail,Furniture,Bookshelf,9,234.55,2110.95,1110.63,1000.32
+515,2023-11-26,1934,South,Partner,Electronics,Smartphone,17,460.98,7836.66,4729.95,3106.71
+516,2023-02-12,1493,West,Online,Office Supplies,Notepad,9,17.95,161.55,113.51,48.04
+517,2023-02-13,1556,North,Online,Clothing,Jacket,19,58.22,1106.18,861.52,244.66
+518,2023-10-12,1583,West,Online,Electronics,Tablet,1,560.35,560.35,402.87,157.48
+519,2023-01-12,1444,West,Online,Clothing,Jeans,8,66.15,529.2,305.59,223.61
+520,2023-04-05,1987,North,Partner,Electronics,Headphones,16,526.82,8429.12,6031.28,2397.84
+521,2023-10-29,1342,West,Online,Home,Lamp,5,56.08,280.4,193.73,86.67
+522,2023-09-10,1851,South,Partner,Clothing,Jeans,13,71.87,934.31,478.52,455.79
+523,2023-08-30,1672,West,Retail,Home,Coffee Table,18,68.32,1229.76,860.32,369.44
+524,2023-02-04,1411,East,Online,Office Supplies,Stapler,4,23.04,92.16,49.43,42.73
+525,2023-08-03,1377,East,Online,Clothing,Jeans,8,69.04,552.32,287.93,264.39
+526,2023-12-03,1958,East,Retail,Home,Rug,19,73.03,1387.57,1085.8,301.77
+527,2023-03-31,1972,North,Online,Home,Rug,9,87.03,783.27,600.31,182.96
+528,2023-09-21,1712,East,Retail,Electronics,Smartphone,10,600.78,6007.8,3254.19,2753.61
+529,2023-04-03,1666,South,Online,Office Supplies,Notepad,7,30.61,214.27,153.67,60.6
+530,2023-03-31,1349,North,Online,Clothing,Sneakers,2,61.08,122.16,91.46,30.7
+531,2023-04-25,1267,West,Partner,Electronics,Smartphone,8,715.2,5721.6,4053.55,1668.05
+532,2023-04-15,1974,West,Online,Home,Curtains,3,77.54,232.62,122.2,110.42
+533,2023-07-15,1222,West,Online,Office Supplies,Stapler,5,19.35,96.75,64.59,32.16
+534,2023-11-10,1657,South,Partner,Clothing,Sneakers,6,72.44,434.64,307.62,127.02
+535,2023-04-24,1948,South,Partner,Office Supplies,Printer Paper,4,27.59,110.36,64.3,46.06
+536,2023-03-16,1865,West,Retail,Electronics,Tablet,6,704.03,4224.18,2677.82,1546.36
+537,2023-08-05,1040,East,Retail,Office Supplies,Pens,3,24.25,72.75,49.02,23.73
+538,2023-10-04,1824,South,Retail,Home,Rug,8,98.7,789.6,397.72,391.88
+539,2023-09-06,1289,East,Retail,Office Supplies,Stapler,4,23.39,93.56,61.54,32.02
+540,2023-06-13,1832,East,Partner,Office Supplies,Pens,5,27.19,135.95,69.8,66.15
+541,2023-12-23,1201,North,Online,Electronics,Headphones,1,760.79,760.79,457.94,302.85
+542,2023-07-11,1478,East,Partner,Home,Curtains,18,86.57,1558.26,938.35,619.91
+543,2023-08-15,1324,West,Online,Office Supplies,Stapler,11,22.17,243.87,171.47,72.4
+544,2023-06-26,1203,West,Retail,Furniture,Sofa,8,229.69,1837.52,1038.87,798.65
+545,2023-04-09,1876,South,Partner,Clothing,Jacket,6,58.34,350.04,247.3,102.74
+546,2023-02-05,1442,West,Online,Clothing,Sneakers,18,59.48,1070.64,544.16,526.48
+547,2023-04-06,1154,South,Partner,Clothing,T-Shirt,3,76.7,230.1,141.57,88.53
+548,2023-06-01,1233,East,Online,Office Supplies,Printer Paper,14,17.96,251.44,154.99,96.45
+549,2023-05-31,1910,West,Online,Clothing,Jeans,19,42.84,813.96,591.64,222.32
+550,2023-07-09,1169,East,Partner,Office Supplies,Notepad,10,31.0,310.0,165.8,144.2
+551,2023-08-12,1785,East,Partner,Furniture,Sofa,5,246.1,1230.5,779.2,451.3
+552,2023-02-06,1430,South,Online,Home,Lamp,9,103.23,929.07,544.92,384.15
+553,2023-09-25,1067,South,Partner,Clothing,Sneakers,17,55.88,949.96,571.99,377.97
+554,2023-07-02,1673,North,Partner,Electronics,Headphones,5,475.49,2377.45,1583.65,793.8
+555,2023-01-13,1946,North,Online,Electronics,Headphones,13,694.28,9025.64,6770.09,2255.55
+556,2023-10-06,1562,East,Retail,Furniture,Office Chair,3,220.35,661.05,381.96,279.09
+557,2023-08-05,1532,East,Online,Office Supplies,Printer Paper,17,25.11,426.87,300.18,126.69
+558,2023-12-21,1384,North,Retail,Home,Lamp,12,95.87,1150.44,763.26,387.18
+559,2023-12-27,1995,South,Retail,Furniture,Desk,3,197.58,592.74,441.61,151.13
+560,2023-10-13,1849,South,Retail,Home,Coffee Table,19,93.55,1777.45,1280.43,497.02
+561,2023-09-30,1786,North,Online,Electronics,Tablet,8,537.3,4298.4,3171.17,1127.23
+562,2023-03-03,1516,West,Partner,Furniture,Sofa,5,284.62,1423.1,774.73,648.37
+563,2023-03-25,1063,East,Retail,Furniture,Office Chair,17,281.63,4787.71,3696.51,1091.2
+564,2023-08-05,1139,South,Online,Home,Coffee Table,2,90.66,181.32,119.67,61.65
+565,2023-12-08,1183,North,Online,Furniture,Sofa,11,257.4,2831.4,1464.75,1366.65
+566,2023-07-06,1528,East,Online,Office Supplies,Pens,9,30.66,275.94,216.12,59.82
+567,2023-01-19,1747,West,Online,Home,Lamp,19,78.21,1485.99,1180.32,305.67
+568,2023-06-26,1101,East,Retail,Electronics,Laptop,6,631.94,3791.64,2322.75,1468.89
+569,2023-04-10,1398,West,Partner,Clothing,T-Shirt,11,49.32,542.52,395.25,147.27
+570,2023-08-21,1464,South,Online,Electronics,Headphones,11,750.74,8258.14,5026.57,3231.57
+571,2023-03-17,1603,East,Online,Clothing,Jeans,19,74.2,1409.8,897.75,512.05
+572,2023-09-22,1902,West,Partner,Clothing,Jacket,19,63.68,1209.92,819.63,390.29
+573,2023-10-11,1839,North,Online,Clothing,Jacket,13,59.15,768.95,614.27,154.68
+574,2023-07-25,1863,West,Retail,Office Supplies,Pens,13,24.09,313.17,236.16,77.01
+575,2023-08-11,1442,East,Partner,Office Supplies,Stapler,8,18.44,147.52,112.86,34.66
+576,2023-02-21,1286,South,Partner,Clothing,Jeans,5,60.38,301.9,207.7,94.2
+577,2023-12-05,1725,North,Partner,Home,Lamp,16,92.6,1481.6,1153.84,327.76
+578,2023-05-24,1319,South,Retail,Home,Curtains,11,97.86,1076.46,708.49,367.97
+579,2023-03-10,1546,South,Online,Furniture,Bookshelf,16,297.97,4767.52,2860.62,1906.9
+580,2023-04-09,1793,West,Online,Clothing,Sneakers,15,77.66,1164.9,652.57,512.33
+581,2023-01-25,1578,South,Online,Office Supplies,Pens,17,18.85,320.45,160.45,160.0
+582,2023-02-22,1910,South,Partner,Clothing,Sneakers,1,54.3,54.3,37.46,16.84
+583,2023-05-31,1187,South,Online,Clothing,Jeans,5,42.2,211.0,164.82,46.18
+584,2023-05-24,1193,North,Partner,Office Supplies,Pens,9,28.99,260.91,196.67,64.24
+585,2023-02-26,1973,North,Online,Electronics,Headphones,8,563.68,4509.44,3233.02,1276.42
+586,2023-02-08,1354,East,Retail,Clothing,Jeans,4,56.66,226.64,117.81,108.83
+587,2023-04-19,1684,East,Online,Home,Lamp,8,61.33,490.64,364.29,126.35
+588,2023-06-30,1357,South,Online,Clothing,Jeans,2,42.22,84.44,44.78,39.66
+589,2023-02-11,1161,East,Online,Office Supplies,Stapler,16,27.73,443.68,236.87,206.81
+590,2023-07-05,1321,South,Online,Furniture,Office Chair,10,211.33,2113.3,1359.86,753.44
+591,2023-08-11,1926,South,Online,Clothing,Jeans,2,67.56,135.12,94.59,40.53
+592,2023-05-02,1973,North,Retail,Clothing,Jacket,2,52.12,104.24,77.25,26.99
+593,2023-05-13,1232,North,Retail,Home,Curtains,7,78.87,552.09,313.48,238.61
+594,2023-06-12,1312,South,Online,Office Supplies,Notepad,13,26.55,345.15,209.62,135.53
+595,2023-08-03,1073,West,Retail,Home,Curtains,17,90.55,1539.35,1170.03,369.32
+596,2023-08-09,1659,East,Partner,Office Supplies,Notepad,10,29.82,298.2,198.72,99.48
+597,2023-08-23,1052,East,Retail,Furniture,Desk,18,211.29,3803.22,2716.21,1087.01
+598,2023-11-27,1204,North,Online,Clothing,Sneakers,15,61.89,928.35,609.04,319.31
+599,2023-05-26,1973,West,Retail,Furniture,Bookshelf,8,215.71,1725.68,1119.98,605.7
+600,2023-08-27,1074,South,Partner,Clothing,Jeans,2,46.82,93.64,64.51,29.13
+601,2023-03-17,1990,South,Partner,Office Supplies,Stapler,9,28.73,258.57,153.92,104.65
+602,2023-01-09,1095,West,Partner,Home,Coffee Table,17,80.53,1369.01,703.75,665.26
+603,2023-03-15,1775,West,Partner,Office Supplies,Pens,6,30.94,185.64,125.3,60.34
+604,2023-09-10,1831,West,Partner,Clothing,Sneakers,9,54.25,488.25,381.88,106.37
+605,2023-08-18,1136,East,Partner,Electronics,Laptop,11,717.62,7893.82,4254.6,3639.22
+606,2023-01-07,1910,South,Online,Electronics,Laptop,2,532.81,1065.62,785.02,280.6
+607,2023-06-23,1623,West,Online,Furniture,Office Chair,19,240.07,4561.33,3525.83,1035.5
+608,2023-05-21,1470,North,Online,Furniture,Sofa,12,276.27,3315.24,1773.01,1542.23
+609,2023-06-17,1950,South,Online,Clothing,Sneakers,1,75.49,75.49,56.86,18.63
+610,2023-06-19,1234,East,Online,Electronics,Headphones,10,470.08,4700.8,2708.93,1991.87
+611,2023-10-10,1522,North,Online,Clothing,Jacket,13,48.58,631.54,368.52,263.02
+612,2023-05-02,1712,West,Online,Clothing,Sneakers,17,66.34,1127.78,883.27,244.51
+613,2023-07-13,1912,West,Online,Electronics,Tablet,19,648.36,12318.84,9853.1,2465.74
+614,2023-01-05,1552,North,Retail,Clothing,Jacket,5,59.95,299.75,184.51,115.24
+615,2023-01-29,1973,North,Retail,Home,Lamp,3,77.97,233.91,131.61,102.3
+616,2023-06-14,1012,West,Retail,Home,Rug,3,73.75,221.25,114.1,107.15
+617,2023-12-05,1897,East,Retail,Electronics,Laptop,18,618.74,11137.32,6957.92,4179.4
+618,2023-05-16,1821,South,Online,Home,Coffee Table,16,73.82,1181.12,898.75,282.37
+619,2023-12-31,1748,East,Retail,Electronics,Tablet,1,706.65,706.65,513.17,193.48
+620,2023-11-17,1803,East,Partner,Home,Curtains,2,74.95,149.9,116.81,33.09
+621,2023-12-08,1939,West,Partner,Electronics,Tablet,18,685.35,12336.3,9775.01,2561.29
+622,2023-05-25,1532,North,Online,Clothing,Sneakers,8,58.85,470.8,317.2,153.6
+623,2023-11-23,1117,East,Online,Electronics,Smartphone,11,552.4,6076.4,3144.1,2932.3
+624,2023-08-05,1585,West,Partner,Office Supplies,Printer Paper,10,25.66,256.6,135.99,120.61
+625,2023-10-28,1769,East,Retail,Furniture,Sofa,14,211.28,2957.92,2287.42,670.5
+626,2023-05-12,1920,South,Partner,Furniture,Desk,17,193.66,3292.22,2054.65,1237.57
+627,2023-10-19,1181,South,Partner,Clothing,Jacket,3,56.55,169.65,111.85,57.8
+628,2023-03-11,1857,North,Online,Furniture,Office Chair,11,306.65,3373.15,1728.73,1644.42
+629,2023-09-09,1783,West,Online,Electronics,Headphones,6,694.43,4166.58,2651.93,1514.65
+630,2023-10-02,1971,North,Online,Office Supplies,Notepad,15,20.8,312.0,168.31,143.69
+631,2023-12-30,1673,South,Online,Office Supplies,Notepad,10,29.05,290.5,215.59,74.91
+632,2023-07-01,1500,South,Online,Office Supplies,Notepad,5,21.48,107.4,54.27,53.13
+633,2023-06-16,1824,East,Partner,Clothing,Sneakers,1,68.6,68.6,38.89,29.71
+634,2023-04-01,1483,East,Online,Office Supplies,Pens,12,17.52,210.24,124.03,86.21
+635,2023-07-21,1456,South,Partner,Office Supplies,Pens,13,32.11,417.43,314.79,102.64
+636,2023-12-12,1503,North,Retail,Furniture,Sofa,11,299.46,3294.06,2246.03,1048.03
+637,2023-01-19,1615,East,Retail,Electronics,Laptop,8,494.55,3956.4,2159.0,1797.4
+638,2023-02-08,1225,North,Online,Home,Curtains,3,90.09,270.27,211.14,59.13
+639,2023-05-06,1217,West,Retail,Furniture,Office Chair,13,287.12,3732.56,2396.84,1335.72
+640,2023-06-22,1644,East,Online,Home,Coffee Table,4,101.97,407.88,319.3,88.58
+641,2023-05-21,1277,East,Partner,Electronics,Smartphone,18,652.05,11736.9,7844.8,3892.1
+642,2023-08-30,1198,South,Online,Clothing,Jacket,9,49.38,444.42,318.95,125.47
+643,2023-08-08,1506,South,Online,Office Supplies,Notepad,10,30.94,309.4,233.34,76.06
+644,2023-05-06,1455,West,Partner,Clothing,Jeans,13,51.94,675.22,536.46,138.76
+645,2023-02-27,1970,West,Retail,Home,Rug,8,99.51,796.08,437.18,358.9
+646,2023-05-28,1101,South,Online,Office Supplies,Stapler,11,29.65,326.15,255.77,70.38
+647,2023-11-13,1793,South,Retail,Electronics,Tablet,15,441.83,6627.45,4685.61,1941.84
+648,2023-12-27,1360,South,Online,Home,Curtains,17,100.67,1711.39,1111.02,600.37
+649,2023-01-01,1421,West,Partner,Office Supplies,Stapler,11,18.17,199.87,124.86,75.01
+650,2023-12-14,1276,South,Online,Home,Rug,2,67.61,135.22,87.92,47.3
+651,2023-07-09,1597,East,Retail,Furniture,Bookshelf,14,186.44,2610.16,1520.19,1089.97
+652,2023-07-10,1222,North,Retail,Office Supplies,Notepad,18,25.7,462.6,256.32,206.28
+653,2023-11-08,1427,West,Retail,Office Supplies,Notepad,3,19.99,59.97,38.0,21.97
+654,2023-04-27,1751,South,Retail,Office Supplies,Pens,13,18.25,237.25,178.67,58.58
+655,2023-05-14,1667,North,Retail,Furniture,Sofa,11,293.97,3233.67,2445.09,788.58
+656,2023-02-27,1866,North,Retail,Home,Rug,12,102.11,1225.32,685.05,540.27
+657,2023-02-13,1445,North,Online,Office Supplies,Notepad,16,23.6,377.6,296.76,80.84
+658,2023-06-22,1018,West,Partner,Clothing,Jeans,12,51.34,616.08,388.81,227.27
+659,2023-06-09,1259,South,Partner,Clothing,T-Shirt,6,64.4,386.4,306.94,79.46
+660,2023-06-22,1353,North,Partner,Furniture,Sofa,12,293.89,3526.68,2723.9,802.78
+661,2023-11-13,1449,South,Online,Electronics,Headphones,17,765.65,13016.05,8544.23,4471.82
+662,2023-10-30,1007,North,Partner,Office Supplies,Pens,2,28.86,57.72,31.66,26.06
+663,2023-05-29,1038,South,Online,Furniture,Sofa,4,212.1,848.4,587.25,261.15
+664,2023-03-21,1853,South,Partner,Home,Coffee Table,17,63.81,1084.77,726.28,358.49
+665,2023-08-01,1612,East,Retail,Clothing,Sneakers,12,42.44,509.28,256.02,253.26
+666,2023-07-22,1169,East,Online,Clothing,T-Shirt,10,70.97,709.7,364.66,345.04
+667,2023-09-09,1602,East,Partner,Office Supplies,Pens,8,30.22,241.76,173.74,68.02
+668,2023-08-17,1875,South,Online,Home,Curtains,5,67.8,339.0,210.46,128.54
+669,2023-06-13,1437,North,Online,Electronics,Laptop,13,420.16,5462.08,4208.07,1254.01
+670,2023-08-15,1604,South,Retail,Clothing,Jeans,2,77.76,155.52,79.86,75.66
+671,2023-05-27,1628,West,Retail,Home,Coffee Table,7,73.84,516.88,319.3,197.58
+672,2023-01-20,1857,East,Retail,Electronics,Headphones,3,440.77,1322.31,837.43,484.88
+673,2023-02-16,1860,East,Partner,Home,Lamp,14,85.86,1202.04,958.91,243.13
+674,2023-08-21,1057,North,Retail,Furniture,Bookshelf,18,273.49,4922.82,2816.44,2106.38
+675,2023-11-01,1314,South,Retail,Home,Rug,13,102.77,1336.01,679.03,656.98
+676,2023-01-14,1192,South,Partner,Home,Lamp,11,92.09,1012.99,575.99,437.0
+677,2023-05-23,1936,East,Retail,Home,Curtains,17,63.11,1072.87,755.16,317.71
+678,2023-01-01,1946,East,Retail,Electronics,Laptop,4,629.38,2517.52,1588.52,929.0
+679,2023-02-23,1108,West,Partner,Electronics,Tablet,3,537.48,1612.44,1212.39,400.05
+680,2023-09-16,1551,North,Partner,Furniture,Desk,7,309.11,2163.77,1696.26,467.51
+681,2023-05-24,1873,West,Retail,Home,Coffee Table,5,76.13,380.65,279.44,101.21
+682,2023-01-12,1903,South,Retail,Furniture,Desk,15,256.68,3850.2,2161.26,1688.94
+683,2023-11-26,1557,South,Partner,Electronics,Tablet,9,526.45,4738.05,3213.06,1524.99
+684,2023-08-12,1270,East,Partner,Home,Coffee Table,14,59.42,831.88,433.16,398.72
+685,2023-09-29,1279,North,Partner,Furniture,Desk,3,251.04,753.12,469.06,284.06
+686,2023-12-24,1988,West,Retail,Electronics,Laptop,8,437.15,3497.2,2511.08,986.12
+687,2023-06-05,1432,South,Online,Office Supplies,Pens,10,29.87,298.7,195.56,103.14
+688,2023-01-08,1829,North,Partner,Office Supplies,Notepad,13,18.06,234.78,126.4,108.38
+689,2023-05-02,1565,East,Retail,Home,Coffee Table,9,56.0,504.0,314.98,189.02
+690,2023-12-14,1390,West,Partner,Office Supplies,Notepad,6,18.32,109.92,87.05,22.87
+691,2023-06-13,1514,West,Retail,Office Supplies,Printer Paper,7,22.06,154.42,91.29,63.13
+692,2023-03-31,1843,North,Online,Electronics,Tablet,19,438.68,8334.92,4645.35,3689.57
+693,2023-05-16,1168,West,Partner,Furniture,Bookshelf,6,284.76,1708.56,1182.65,525.91
+694,2023-07-05,1541,West,Partner,Home,Coffee Table,5,92.44,462.2,315.63,146.57
+695,2023-11-12,1205,West,Retail,Home,Coffee Table,5,90.21,451.05,336.05,115.0
+696,2023-06-27,1550,West,Retail,Clothing,Jeans,16,74.47,1191.52,884.12,307.4
+697,2023-01-28,1660,West,Retail,Office Supplies,Pens,16,28.81,460.96,284.85,176.11
+698,2023-08-08,1798,North,Online,Home,Lamp,8,87.73,701.84,367.44,334.4
+699,2023-12-23,1766,West,Retail,Home,Rug,10,90.05,900.5,495.45,405.05
+700,2023-02-10,1725,South,Partner,Clothing,Sneakers,9,51.68,465.12,320.25,144.87
+701,2023-08-16,1152,South,Retail,Home,Coffee Table,17,84.87,1442.79,849.76,593.03
+702,2023-07-11,1728,East,Online,Furniture,Office Chair,5,190.38,951.9,622.69,329.21
+703,2023-05-25,1087,North,Online,Office Supplies,Printer Paper,19,23.04,437.76,341.4,96.36
+704,2023-07-20,1890,West,Retail,Clothing,Jacket,2,67.1,134.2,95.86,38.34
+705,2023-07-31,1166,East,Partner,Clothing,Sneakers,6,75.16,450.96,319.45,131.51
+706,2023-08-08,1072,North,Partner,Electronics,Smartphone,17,431.11,7328.87,3778.54,3550.33
+707,2023-08-28,1244,West,Retail,Electronics,Headphones,13,496.82,6458.66,4518.12,1940.54
+708,2023-02-15,1879,North,Online,Electronics,Tablet,3,462.79,1388.37,1012.7,375.67
+709,2023-02-04,1848,North,Online,Home,Curtains,15,76.9,1153.5,766.84,386.66
+710,2023-09-10,1863,West,Online,Home,Lamp,3,79.16,237.48,154.84,82.64
+711,2023-03-23,1883,South,Online,Clothing,Jacket,4,55.84,223.36,113.37,109.99
+712,2023-09-13,1269,West,Online,Clothing,Jeans,3,42.41,127.23,90.47,36.76
+713,2023-07-16,1314,North,Partner,Electronics,Smartphone,2,577.56,1155.12,658.99,496.13
+714,2023-10-30,1167,North,Partner,Clothing,Jeans,19,67.42,1280.98,845.81,435.17
+715,2023-01-10,1335,North,Partner,Office Supplies,Stapler,19,23.94,454.86,269.57,185.29
+716,2023-11-08,1957,South,Online,Electronics,Tablet,6,462.66,2775.96,2188.72,587.24
+717,2023-10-13,1554,West,Online,Office Supplies,Pens,3,31.79,95.37,54.17,41.2
+718,2023-08-30,1427,West,Partner,Furniture,Bookshelf,10,296.32,2963.2,2083.56,879.64
+719,2023-09-08,1996,West,Partner,Home,Coffee Table,2,97.83,195.66,137.32,58.34
+720,2023-12-31,1450,South,Retail,Office Supplies,Notepad,8,21.26,170.08,116.92,53.16
+721,2023-01-05,1209,South,Partner,Electronics,Laptop,18,719.82,12956.76,10000.37,2956.39
+722,2023-04-29,1011,South,Retail,Office Supplies,Stapler,16,19.94,319.04,177.41,141.63
+723,2023-10-16,1901,East,Partner,Office Supplies,Printer Paper,11,20.37,224.07,139.71,84.36
+724,2023-03-06,1068,East,Partner,Home,Curtains,1,76.67,76.67,58.53,18.14
+725,2023-05-26,1018,South,Online,Home,Rug,1,69.72,69.72,43.91,25.81
+726,2023-08-12,1678,North,Retail,Home,Curtains,5,59.46,297.3,166.97,130.33
+727,2023-08-27,1390,South,Retail,Office Supplies,Pens,4,32.23,128.92,94.82,34.1
+728,2023-06-26,1127,East,Partner,Electronics,Laptop,15,461.83,6927.45,5086.82,1840.63
+729,2023-09-24,1391,East,Online,Home,Lamp,18,101.18,1821.24,1410.4,410.84
+730,2023-12-07,1324,East,Retail,Home,Coffee Table,10,64.61,646.1,511.2,134.9
+731,2023-10-09,1424,North,Online,Furniture,Desk,9,285.68,2571.12,1829.01,742.11
+732,2023-03-04,1386,North,Retail,Office Supplies,Printer Paper,17,22.7,385.9,238.98,146.92
+733,2023-08-05,1513,West,Online,Electronics,Smartphone,10,606.04,6060.4,4375.9,1684.5
+734,2023-12-08,1438,West,Retail,Home,Curtains,10,89.11,891.1,484.03,407.07
+735,2023-11-11,1019,East,Online,Electronics,Laptop,7,481.96,3373.72,2623.6,750.12
+736,2023-10-10,1595,West,Partner,Home,Lamp,9,60.42,543.78,369.61,174.17
+737,2023-06-26,1801,East,Online,Furniture,Sofa,3,272.28,816.84,473.95,342.89
+738,2023-04-08,1072,South,Partner,Office Supplies,Printer Paper,3,23.1,69.3,46.37,22.93
+739,2023-04-15,1442,East,Online,Furniture,Sofa,1,275.81,275.81,186.19,89.62
+740,2023-04-09,1451,East,Online,Home,Lamp,4,67.98,271.92,136.12,135.8
+741,2023-11-07,1820,North,Online,Office Supplies,Stapler,1,19.26,19.26,12.22,7.04
+742,2023-01-06,1916,West,Online,Home,Rug,15,66.23,993.45,776.6,216.85
+743,2023-07-16,1283,West,Retail,Clothing,T-Shirt,4,67.24,268.96,189.36,79.6
+744,2023-12-17,1816,West,Retail,Office Supplies,Pens,1,17.73,17.73,11.97,5.76
+745,2023-05-13,1419,West,Online,Clothing,Sneakers,9,58.21,523.89,412.45,111.44
+746,2023-12-24,1799,East,Partner,Electronics,Tablet,9,722.33,6500.97,3618.19,2882.78
+747,2023-09-16,1369,South,Retail,Home,Curtains,6,102.9,617.4,327.57,289.83
+748,2023-01-23,1126,North,Partner,Furniture,Desk,18,188.89,3400.02,2463.37,936.65
+749,2023-02-22,1072,North,Partner,Electronics,Tablet,15,513.14,7697.1,4851.64,2845.46
+750,2023-06-14,1376,West,Partner,Electronics,Smartphone,19,632.2,12011.8,8215.92,3795.88
+751,2023-07-21,1679,South,Retail,Clothing,Jeans,9,50.71,456.39,325.96,130.43
+752,2023-03-24,1479,South,Retail,Electronics,Tablet,7,491.74,3442.18,2627.21,814.97
+753,2023-05-25,1365,South,Partner,Electronics,Tablet,15,430.62,6459.3,3919.45,2539.85
+754,2023-03-26,1202,East,Retail,Clothing,T-Shirt,5,44.78,223.9,173.15,50.75
+755,2023-03-19,1330,South,Partner,Office Supplies,Pens,18,28.49,512.82,349.75,163.07
+756,2023-01-01,1649,West,Retail,Home,Curtains,16,59.9,958.4,752.77,205.63
+757,2023-02-20,1442,East,Online,Electronics,Laptop,18,709.83,12776.94,9543.03,3233.91
+758,2023-06-22,1869,East,Online,Office Supplies,Pens,13,29.3,380.9,235.87,145.03
+759,2023-07-24,1775,South,Retail,Home,Curtains,1,68.16,68.16,54.28,13.88
+760,2023-09-17,1508,West,Retail,Home,Lamp,19,93.0,1767.0,1110.12,656.88
+761,2023-10-15,1955,East,Partner,Electronics,Smartphone,6,707.9,4247.4,2548.79,1698.61
+762,2023-02-03,1567,North,Retail,Furniture,Desk,1,309.3,309.3,216.49,92.81
+763,2023-12-14,1187,North,Partner,Clothing,T-Shirt,2,64.69,129.38,74.33,55.05
+764,2023-04-05,1251,East,Online,Home,Rug,6,76.52,459.12,290.51,168.61
+765,2023-03-13,1865,East,Retail,Electronics,Headphones,11,757.06,8327.66,4323.74,4003.92
+766,2023-02-08,1213,North,Partner,Clothing,T-Shirt,11,63.56,699.16,391.76,307.4
+767,2023-06-03,1835,East,Partner,Furniture,Office Chair,7,183.43,1284.01,831.18,452.83
+768,2023-09-07,1933,West,Retail,Furniture,Office Chair,15,217.16,3257.4,2325.42,931.98
+769,2023-06-11,1340,West,Retail,Office Supplies,Stapler,18,23.63,425.34,330.58,94.76
+770,2023-04-28,1859,East,Online,Furniture,Bookshelf,16,252.46,4039.36,2972.79,1066.57
+771,2023-09-16,1595,North,Partner,Office Supplies,Notepad,18,30.73,553.14,411.67,141.47
+772,2023-11-02,1195,East,Retail,Electronics,Smartphone,19,459.76,8735.44,5125.57,3609.87
+773,2023-09-25,1534,East,Retail,Home,Curtains,12,68.0,816.0,534.07,281.93
+774,2023-02-23,1863,North,Online,Clothing,Jeans,13,53.08,690.04,534.19,155.85
+775,2023-08-24,1361,East,Online,Office Supplies,Printer Paper,5,22.4,112.0,67.91,44.09
+776,2023-08-10,1828,East,Online,Clothing,T-Shirt,7,50.34,352.38,209.87,142.51
+777,2023-09-08,1038,South,Retail,Furniture,Office Chair,9,186.65,1679.85,1257.64,422.21
+778,2023-11-09,1464,West,Online,Home,Rug,9,97.22,874.98,615.18,259.8
+779,2023-04-22,1824,West,Retail,Clothing,Sneakers,12,72.92,875.04,633.97,241.07
+780,2023-09-12,1652,North,Retail,Furniture,Sofa,9,199.05,1791.45,1257.77,533.68
+781,2023-10-30,1044,East,Partner,Electronics,Smartphone,14,558.53,7819.42,5057.7,2761.72
+782,2023-07-26,1484,West,Partner,Electronics,Tablet,17,686.63,11672.71,8858.32,2814.39
+783,2023-08-17,1757,East,Retail,Electronics,Headphones,6,704.2,4225.2,2488.79,1736.41
+784,2023-12-07,1415,North,Online,Office Supplies,Stapler,1,22.68,22.68,14.16,8.52
+785,2023-03-07,1114,East,Retail,Clothing,Sneakers,10,73.74,737.4,395.58,341.82
+786,2023-03-16,1010,North,Partner,Furniture,Bookshelf,4,192.76,771.04,434.53,336.51
+787,2023-04-13,1126,South,Retail,Clothing,Jeans,14,48.01,672.14,385.22,286.92
+788,2023-07-11,1663,West,Partner,Clothing,Sneakers,19,54.08,1027.52,744.76,282.76
+789,2023-09-09,1288,West,Online,Clothing,Jeans,8,77.5,620.0,387.14,232.86
+790,2023-08-14,1174,West,Partner,Home,Lamp,1,81.96,81.96,58.1,23.86
+791,2023-10-21,1498,North,Online,Office Supplies,Printer Paper,10,20.08,200.8,130.53,70.27
+792,2023-11-02,1943,East,Online,Home,Curtains,13,97.79,1271.27,876.45,394.82
+793,2023-04-08,1831,South,Retail,Clothing,Jeans,15,46.15,692.25,471.9,220.35
+794,2023-12-04,1070,North,Online,Electronics,Tablet,7,471.42,3299.94,2335.11,964.83
+795,2023-10-13,1006,South,Partner,Electronics,Tablet,13,561.07,7293.91,5606.85,1687.06
+796,2023-12-01,1573,East,Partner,Office Supplies,Notepad,17,31.77,540.09,395.86,144.23
+797,2023-12-13,1386,South,Online,Electronics,Tablet,17,728.63,12386.71,8695.15,3691.56
+798,2023-11-04,1793,South,Partner,Clothing,T-Shirt,15,73.88,1108.2,627.87,480.33
+799,2023-09-06,1631,North,Retail,Furniture,Desk,16,176.5,2824.0,2024.9,799.1
+800,2023-06-15,1424,North,Retail,Office Supplies,Notepad,1,24.48,24.48,18.66,5.82
